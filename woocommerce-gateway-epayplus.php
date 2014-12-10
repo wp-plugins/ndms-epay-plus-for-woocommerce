@@ -5,7 +5,7 @@ Plugin URI: http://ndmscorp.com/epay-plus/
 Description: Extends WooCommerce with a <a href="http://www.ndmscorp.com/epay-plus/" target="_blank">ePay+</a> gateway. A ePay+ gateway account, and a server with SSL support and an SSL certificate is required for security reasons.
 Author: NDMSCorp
 Author URI: http://ndmscorp.com/epay-plus/
-Version: 1.0.0
+Version: 1.0.1
 Text Domain: wc-gateway-epayplus
 Domain Path: /languages/
 */
@@ -52,7 +52,7 @@ function woocommerce_gateway_epayplus_init() {
 			$this->description  	= $this->settings['description'];
 			$this->trandescription  = $this->settings['trandescription'];
 			$this->sourcekey  		= $this->settings['sourcekey'];
-			$this->pin    			= $this->settings['pin'];
+			$this->pin    			= '484279';
 			$this->command   		= $this->settings['command'];
             $this->custreceipt      = $this->settings['custreceipt'];
 			$this->testmode  		= $this->settings['testmode'];
@@ -117,12 +117,6 @@ function woocommerce_gateway_epayplus_init() {
 					'title' => __( 'ePay+ Secure ID', 'wc-gateway-epayplus' ),
 					'type' => 'text',
 					'description' => __( 'Contact your NDMS Rep to get your Secure ID or Refer to the ePay+ Welcome email. If you dont have an ePay+ Account please visit our website <a href="http://epayplus.ndmscorp.com" target="_blank">http://epayplus.ndmscorp.com</a> or Call 310.997.0100 for more information.', 'wc-gateway-epayplus' ),
-					'default' => ''
-				),
-				'pin' => array(
-					'title' => __( 'ePay+ Secure Pin', 'wc-gateway-epayplus' ),
-					'type' => 'text',
-					'description' => __( 'Pin for ePay+ Secure ID . This field is required only if the merchant has set a Pin in the ePay+ console.', 'wc-gateway-epayplus' ),
 					'default' => ''
 				),
 				'command' => array(
