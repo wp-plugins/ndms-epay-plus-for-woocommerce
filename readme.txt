@@ -3,8 +3,8 @@ Contributors: ndmscorp, growdev
 Donate link: http://www.ndmscorp.com/
 Tags: woocommerce, ecommerce, payment gateway
 Requires at least: 3.5
-Tested up to: 4.0.1
-Stable tag: 1.0.0
+Tested up to: 4.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,7 +39,7 @@ The customer enters their credit card details (Card Holder Name, Credit Card Num
  * To use your ePay+ payment gateway for live transactions you will need your unique ePay+ Secure Id. 
  * The secure ID can be found in the NDMS Welcome email along with Login instructions for the Merchant Console.
  * If you don't have an NDMS ePay+ Account please visit our website http://epayplus.ndmscorp.com 
- * Or Call 310.997.0100 to speak to one of our team members direct.
+ * Or Call 424.247.5511 to speak to one of our team members direct.
 
 
 
@@ -58,6 +58,9 @@ The customer enters their credit card details (Card Holder Name, Credit Card Num
 
 
 == Changelog ==
+
+= 1.0.2 =
+* Adding compatibility with WooCommerce Subscriptions
 
 = 1.0.1 =
 * Adjusting the PIN parameter
