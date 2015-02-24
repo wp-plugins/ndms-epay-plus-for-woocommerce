@@ -16,7 +16,16 @@ NDMS ePay Plus is a complete payment processing solution for merchants using Woo
 
 The customer enters their credit card details (Card Holder Name, Credit Card Number, Expiration Date, CVV) and NDMS ePay Plus handles authorization and settlement. The customer stays on your site for a seamless checkout experience.
 
-== Configuring ePay+ settings in the WooCommerce admin area ==
+== Installation ==
+
+ * Unzip the files and upload the folder into your plugins folder (wp-content/plugins/) overwriting old versions if they exist
+ * Activate the plugin in your WordPress admin area.
+ * Open the settings page for WooCommerce and click the "Payment Gateways" tab
+ * Click on the sub tab for "ePay+"
+ * Configure your ePay+ express settings.  See below how to.
+
+
+ Configuring ePay+ settings in the WooCommerce admin area
 
  * Enable/Disable - Enable or disable this gateway from being used on the site.
  * Title - This is the title that appears on the checkout page for this payment gateway.
@@ -34,22 +43,13 @@ The customer enters their credit card details (Card Holder Name, Credit Card Num
  Press "Save changes" to apply your changes.
 
 
-== NDMS ePay+ Secure ID ==
+ NDMS ePay+ Secure ID
 
  * To use your ePay+ payment gateway for live transactions you will need your unique ePay+ Secure Id. 
  * The secure ID can be found in the NDMS Welcome email along with Login instructions for the Merchant Console.
  * If you don't have an NDMS ePay+ Account please visit our website http://epayplus.ndmscorp.com 
  * Or Call 424.247.5511 to speak to one of our team members direct.
 
-
-
-== Installation ==
-
- * Unzip the files and upload the folder into your plugins folder (wp-content/plugins/) overwriting old versions if they exist
- * Activate the plugin in your WordPress admin area.
- * Open the settings page for WooCommerce and click the "Payment Gateways" tab
- * Click on the sub tab for "ePay+"
- * Configure your ePay+ express settings.  See below how to.
 
 == Frequently Asked Questions ==
 
