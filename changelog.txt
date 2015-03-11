@@ -1,5 +1,8 @@
 *** WooCommerce ePay+ ***
 
+2015-03-10 1.0.3
+* Fixed images link
+
 2015-01-19 1.0.2
 * Adding compatibility with WooCommerce Subscriptions
 

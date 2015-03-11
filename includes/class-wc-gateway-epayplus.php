@@ -17,8 +17,8 @@ class WC_Gateway_Epayplus extends WC_Payment_Gateway {
 		$this->id   				= 'epayplus';
 		$this->method_title 		= __( 'ePay+', 'wc-gateway-epayplus' );
 		$this->method_description 	= __( 'ePay+ allows customers to checkout using a credit card', 'wc-gateway-epayplus');
-		$this->logo 				= untrailingslashit( plugins_url( '/', __FILE__ ) ) . '/images/logo.png';
-		$this->icon   				= untrailingslashit( plugins_url( '/', __FILE__ ) ) . '/images/cards.png';
+		$this->logo 				= plugins_url( '/images/logo.png', dirname( __FILE__ ));
+		$this->icon   				= plugins_url( '/images/cards.png', dirname( __FILE__ ));
 		$this->has_fields  			= false;
 		$this->supports 			= array(
 			'subscriptions',

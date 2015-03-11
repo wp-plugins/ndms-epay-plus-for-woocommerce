@@ -5,7 +5,7 @@ Plugin URI: http://ndmscorp.com/epay-plus/
 Description: Extends WooCommerce with a <a href="http://www.ndmscorp.com/epay-plus/" target="_blank">ePay+</a> gateway. A ePay+ gateway account, and a server with SSL support and an SSL certificate is required for security reasons.
 Author: NDMSCorp
 Author URI: http://ndmscorp.com/epay-plus/
-Version: 1.0.2
+Version: 1.0.3
 Text Domain: wc-gateway-epayplus
 Domain Path: /languages/
 */

@@ -1,10 +1,10 @@
 === NDMS ePay Plus ===
-Contributors: ndmscorp, growdev
+Contributors: ndmscorp
 Donate link: http://www.ndmscorp.com/
 Tags: woocommerce, ecommerce, payment gateway
 Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 1.0.2
+Tested up to: 4.1.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,9 @@ The customer enters their credit card details (Card Holder Name, Credit Card Num
 
 
 == Changelog ==
+
+= 1.0.3 =
+* Fixed images link
 
 = 1.0.2 =
 * Adding compatibility with WooCommerce Subscriptions
